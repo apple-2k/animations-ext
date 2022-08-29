@@ -5,12 +5,6 @@ let wait: number
 * Weitere Informationen unter https://makecode.microbit.org/blocks/custom
 */
 
-enum MyEnum {
-    //% block="1"
-    "nothing",
-    //% block="2"
-    "effect1"
-}
 
 /**
  * Custom blocks
@@ -21,8 +15,8 @@ namespace custom {
      * TODO: describe your function here
      * @param n describe parameter here, eg: 5
      */
-    //% block="Animiere $a mit $n FPS und $e"
-    export function animate(a: any, n: number, e: MyEnum): void {
+    //% block="Animiere $a mit $n FPS"
+    export function animate(a: any, n: number): void {
         
         for (let Index = 0; Index <= a.length - 1; Index++) {
             a[Index].showImage(0)
