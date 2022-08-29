@@ -1,5 +1,4 @@
-let l: number
-let wait: number
+
 /**
 * Nutze diese Datei für benutzerdefinierte Funktionen und Blöcke.
 * Weitere Informationen unter https://makecode.microbit.org/blocks/custom
@@ -10,13 +9,13 @@ let wait: number
  * Custom blocks
  */
 //% weight=100 color=#0fbc11 icon=""
-namespace custom {
+namespace animiertier {
     /**
      * TODO: describe your function here
      * @param n describe parameter here, eg: 5
      */
     //% block="Animiere $a mit $n FPS"
-    export function animate(a: any, n: number): void {
+    export function animate(a: Image[], n: number): void {
         
         for (let Index = 0; Index <= a.length - 1; Index++) {
             a[Index].showImage(0)
