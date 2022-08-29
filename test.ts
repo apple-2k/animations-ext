@@ -12,4 +12,4 @@ let animation_data = [images.createImage(`
     . . . . .
     `)]
     
-flip_book.animate(animation_data, 1)
+flipbook.animate(animation_data, 1)

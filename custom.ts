@@ -9,7 +9,7 @@
  * Custom blocks
  */
 //% weight=100 color=#0fbc11 icon=""
-namespace flip_book {
+namespace flipbook {
     /**
      * Creates a Animation with a array of Images.
      * @param n describe parameter here, eg: 20
