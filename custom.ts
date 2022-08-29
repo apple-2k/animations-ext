@@ -11,15 +11,15 @@
 //% weight=100 color=#0fbc11 icon=""
 namespace animiertier {
     /**
-     * TODO: describe your function here
-     * @param n describe parameter here, eg: 5
+     * Creates a Animation with a array of Images.
+     * @param n describe parameter here, eg: 20
      */
     //% block="Animiere $a mit $n FPS"
     export function animate(a: Image[], n: number): void {
         
         for (let Index = 0; Index <= a.length - 1; Index++) {
             a[Index].showImage(0)
-            basic.pause(n * 1000)
+            basic.pause((1 / n) * 1000)
         }
     basic.clearScreen()
     }
