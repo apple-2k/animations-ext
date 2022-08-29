@@ -19,7 +19,7 @@ enum MyEnum {
 namespace custom {
     /**
      * TODO: describe your function here
-     * @param n describe parameter here, eg: 5
+     * @param n describe parameter here eg: 5
      */
     //% block="Animiere $a mit $n FPS und $e"
     export function animate(a: any, n: number, e: MyEnum): void {
