@@ -1,4 +1,5 @@
-
+let l: number
+let wait: number
 /**
 * Nutze diese Datei für benutzerdefinierte Funktionen und Blöcke.
 * Weitere Informationen unter https://makecode.microbit.org/blocks/custom
@@ -19,12 +20,18 @@ namespace custom {
     /**
      * TODO: describe your function here
      * @param n describe parameter here, eg: 5
-     * @param a describe parameter here, eg: []
+     * @param a describe parameter here
      * @param e describe parameter here
      */
     //% block="Animiere $a mit $n FPS und $e"
     export function animate(a: any, n: number, e: MyEnum): void {
-        // Add code here
+        
+        l = a.length -1
+        wait = (1 / n) * 1000
+        for (let i = 0; i < l; i++) {
+            basic.showIcon(a[i])
+            basic.pause(wait)
+        }
     }
 
     /**
