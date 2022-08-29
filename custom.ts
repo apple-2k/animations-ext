@@ -24,13 +24,13 @@ namespace custom {
     //% block="Animiere $a mit $n FPS und $e"
     export function animate(a: any, n: number, e: MyEnum): void {
         
-        l = a.length -1
-        wait = (1 / n) * 1000
-        for (let i = 0; i < l; i++) {
-            a[i].showImage(0)
-            basic.pause(wait)
+        for (let Index = 0; Index <= a.length - 1; Index++) {
+            a[Index].showImage(0)
+            basic.pause(n * 1000)
         }
+    basic.clearScreen()
     }
+
 
     /**
      * TODO: describe your function here
