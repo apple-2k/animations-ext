@@ -20,8 +20,6 @@ namespace custom {
     /**
      * TODO: describe your function here
      * @param n describe parameter here, eg: 5
-     * @param a describe parameter here
-     * @param e describe parameter here
      */
     //% block="Animiere $a mit $n FPS und $e"
     export function animate(a: any, n: number, e: MyEnum): void {
