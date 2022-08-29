@@ -5,10 +5,10 @@
 */
 
 enum MyEnum {
-    //% block="one"
-    One,
-    //% block="two"
-    Two
+    //% block="keinem Effekt"
+    "nothing",
+    //% block="erscheinen"
+    "effect1"
 }
 
 /**
