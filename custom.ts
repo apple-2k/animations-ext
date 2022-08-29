@@ -29,7 +29,7 @@ namespace custom {
         l = a.length -1
         wait = (1 / n) * 1000
         for (let i = 0; i < l; i++) {
-            basic.showIcon(a[i])
+            a[i].showImage(0)
             basic.pause(wait)
         }
     }
