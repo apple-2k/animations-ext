@@ -12,4 +12,4 @@ let animation_data = [images.createImage(`
     . . . . .
     `)]
     
-animiertier.animate(animation_data, 1)
+flip_book.animate(animation_data, 1)
