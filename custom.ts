@@ -15,7 +15,7 @@ namespace flipbook {
      * @param n the time between two images, eg: 500
      * @param a An Array of Images, eg: Image[]
      */
-    //% block="Animiere $a alle $n ms"
+    //% block="Animate $a every $n ms"
     //% n.min=100 n.max=5000
     //% n.shadow=timePicker
     export function animate(a: Image[], n: number): void {
@@ -32,7 +32,7 @@ namespace flipbook {
     /**
      * returns true if an animation is running.
      */
-    //% block="Läuft eine Animation?"
+    //% block="Is there an animation running?"
     export function isrunning(): boolean {
         return animation_running
     }
