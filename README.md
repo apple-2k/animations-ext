@@ -1,5 +1,5 @@
 
-> .hex-Link nicht klickbar? Öffne die Seite [hier.](https://aha-ha.github.io/animations-erweiterung/)
+> Irgendwelche Probleme? Öffne die Seite [hier.](https://aha-ha.github.io/animations-erweiterung/)
 ## Die Erweiterung zu Makecode hinzufügen
 
 Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
@@ -8,7 +8,7 @@ Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
 * klicke auf **Neues Projekt**
 * klicke auf **Erweiterungen** unter dem Zahnrad-Menü
 * nach **https://github.com/aha-ha/animations-erweiterung** suchen und importieren
-Klappt nicht? Dann importiere die <a href="https://raw.githubusercontent.com/aha-ha/Files/main/flipbook-ext.hex" download>.hex-Datei.</a>
+Klappt nicht? Dann importiere die [.hex-Datei](https://raw.githubusercontent.com/aha-ha/Files/main/flipbook-ext.hex)
 Achtung: Dafür gibt es nur selten Updates...
 
 ## Dieses Projekt bearbeiten
