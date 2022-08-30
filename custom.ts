@@ -11,7 +11,8 @@ let animation_running: boolean
 namespace flipbook {
     /**
      * Creates a Animation with a array of Images.
-     * @param n describe parameter here, eg: 500
+     * @param n the time between two images, eg: 500
+     * @param a An Array of Images, eg: Image["1", "2", "3"]
      */
     //% block="Animiere $a alle $n ms"
     //% n.min=100 n.max=5000
