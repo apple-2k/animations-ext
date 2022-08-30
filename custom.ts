@@ -1,11 +1,10 @@
 let animation_running: boolean
-let image_classic: string = `
-. . . . .
-. . . . .
-. . . . .
-. . . . .
-. . . . .
-`
+enum animation_effects {
+    //% block="erscheinen"
+    show,
+    //% block="verblassen"
+    hide
+}
 
 /**
 * Nutze diese Datei für benutzerdefinierte Funktionen und Blöcke.
@@ -43,14 +42,7 @@ namespace flipbook {
     export function isrunning(): boolean {
         return animation_running
     }
-    /**
-     * Show an image with many effects.
-     * @param img An Image for animations, eg: 
-     */
-    //% block="Animiere Bild $img"
-    //% parts="ledmatrix"
-    export function animateimg(): void {
+   
+        }
 
-    }
-}
 
