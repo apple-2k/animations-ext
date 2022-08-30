@@ -1,7 +1,7 @@
 
 > Diese Seite bei [https://aha-ha.github.io/animations-erweiterung/](https://aha-ha.github.io/animations-erweiterung/) öffnen
 
-## Als Erweiterung verwenden
+## Die Erweiterung zu Makecode hinzufügen
 
 Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
 
@@ -9,23 +9,15 @@ Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
 * klicke auf **Neues Projekt**
 * klicke auf **Erweiterungen** unter dem Zahnrad-Menü
 * nach **https://github.com/aha-ha/animations-erweiterung** suchen und importieren
+Klappt nicht? Dann importiere die <a href="https://raw.githubusercontent.com/aha-ha/Files/main/flipbook-ext.hex" download>.hex-Datei.</a>
+Achtung: Dafür gibt es nur selten Updates...
 
-## Dieses Projekt bearbeiten ![Build Status Abzeichen](https://github.com/aha-ha/animations-erweiterung/workflows/MakeCode/badge.svg)
-
-Um dieses Repository in MakeCode zu bearbeiten.
-
+## Dieses Projekt bearbeiten
+Hast du eine Idee, wie man die Erweiterung verbessern oder Fehler beheben kann?
+* Dann öffne [das Repository](https://github.com/aha-ha/animations-erweiterung)
+* und kopiere dieses Repository mit der Schaltfläche "Fork".
 * öffne [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* klicke auf **Importieren** und dann auf **Importiere URL**
-* füge **https://github.com/aha-ha/animations-erweiterung** ein und klicke auf Importieren
+* klicke auf **Importieren** und dann auf **Dein GitHub-Repository**
+* wähle das Repository aus. Das sollte **DeinBenutzername/animations-erweiterung** sein, wenn du das Repository nicht umbenannt hast.
+* Fertig! Viel Spaß beim bearbeiten.
 
-## Blockvorschau
-
-Dieses Bild zeigt den Blockcode vom letzten Commit im Master an.
-Die Aktualisierung dieses Bildes kann einige Minuten dauern.
-
-![Eine gerenderte Ansicht der Blöcke](https://github.com/aha-ha/animations-erweiterung/raw/master/.github/makecode/blocks.png)
-
-#### Metadaten (verwendet für Suche, Rendering)
-
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
