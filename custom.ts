@@ -1,10 +1,4 @@
 let animation_running: boolean
-enum animation_effects {
-    //% block="erscheinen"
-    show,
-    //% block="verblassen"
-    hide
-}
 
 /**
 * Nutze diese Datei für benutzerdefinierte Funktionen und Blöcke.

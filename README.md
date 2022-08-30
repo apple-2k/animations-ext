@@ -20,3 +20,21 @@ Hast du eine Idee, wie man die Erweiterung verbessern oder Fehler beheben kann?
 * wähle das Repository aus. Das sollte **DeinBenutzername/animations-erweiterung** sein, wenn du das Repository nicht umbenannt hast.
 * Fertig! Viel Spaß beim bearbeiten.
 
+# Docs
+## Starte Animation
+Spielt eine Reihe von Bildern hintereinander ab, ähnlich wie bei einem Daumenkino.
+```blocks
+flipbook.animate([images.createImage(`
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    `), images.createImage(`
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    `)], 500)
+```
