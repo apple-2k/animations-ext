@@ -8,7 +8,7 @@ Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
 * klicke auf **Neues Projekt**
 * klicke auf **Erweiterungen** unter dem Zahnrad-Menü
 * nach **https://github.com/aha-ha/animations-erweiterung** suchen und importieren
-Klappt nicht? Dann importiere die [hex-Datei](https://raw.githubusercontent.com/aha-ha/Files/main/flipbook-ext.hex)
+Klappt nicht? Dann importiere die [hex-Datei](https://raw.githubusercontent.com/aha-ha/Files/main/flipbook-ext.hex) (Eventuell noch Rechtsklick und Speichern unter drücken, falls der Browser nur Zahlensalat anzeigt statt die Datei herunterzuladen...)
 Achtung: Dafür gibt es nur selten Updates...
 
 ## Dieses Projekt bearbeiten
