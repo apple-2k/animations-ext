@@ -1,6 +1,5 @@
 
-> Diese Seite bei [https://aha-ha.github.io/animations-erweiterung/](https://aha-ha.github.io/animations-erweiterung/) öffnen
-
+> .hex-Link nicht klickbar? Öffne die Seite [hier.](https://aha-ha.github.io/animations-erweiterung/)
 ## Die Erweiterung zu Makecode hinzufügen
 
 Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
