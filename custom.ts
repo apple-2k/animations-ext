@@ -1,4 +1,12 @@
 let animation_running: boolean
+let image_classic: string = `
+. . . . .
+. . . . .
+. . . . .
+. . . . .
+. . . . .
+`
+
 /**
 * Nutze diese Datei für benutzerdefinierte Funktionen und Blöcke.
 * Weitere Informationen unter https://makecode.microbit.org/blocks/custom
@@ -12,7 +20,7 @@ namespace flipbook {
     /**
      * Creates a Animation with a array of Images.
      * @param n the time between two images, eg: 500
-     * @param a An Array of Images, eg: Image["1", "2", "3"]
+     * @param a An Array of Images, eg: Image[]
      */
     //% block="Animiere $a alle $n ms"
     //% n.min=100 n.max=5000
@@ -35,12 +43,13 @@ namespace flipbook {
     export function isrunning(): boolean {
         return animation_running
     }
-
     /**
      * Show an image with many effects.
+     * @param img An Image for animations, eg: 
      */
-    //% block=""
-    export function animateimg(img: Image): void {
+    //% block="Animiere Bild $img"
+    //% parts="ledmatrix"
+    export function animateimg(): void {
 
     }
 }
