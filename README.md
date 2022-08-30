@@ -21,7 +21,7 @@ Hast du eine Idee, wie man die Erweiterung verbessern oder Fehler beheben kann?
 * Fertig! Viel Spaß beim bearbeiten.
 
 # Docs
-## Starte Animation #flipbookanimate
+## Starte Animation #flipbook-animate
 Spielt eine Reihe von Bildern hintereinander ab, ähnlich wie bei einem Daumenkino.
 ### Verwendung
 #### Blöcke
@@ -143,7 +143,7 @@ flipbook.animate([images.create_image("""
         """)],
     300)
 ```
-## Läuft eine Animation? #flipbookisrunning
+## Läuft eine Animation? #flipbook-isrunning
 ### Verwendung
 #### Blöcke
 ![Abfrage "Läuft eine Animation"](https://raw.githubusercontent.com/aha-ha/Files/main/Blocks3.png)
