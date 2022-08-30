@@ -21,7 +21,7 @@ Hast du eine Idee, wie man die Erweiterung verbessern oder Fehler beheben kann?
 * Fertig! Viel Spaß beim bearbeiten.
 
 # Docs
-## Starte Animation
+## Starte Animation #flipbookanimate
 Spielt eine Reihe von Bildern hintereinander ab, ähnlich wie bei einem Daumenkino.
 ```blocks
 flipbook.animate([images.createImage(`
