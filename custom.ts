@@ -7,15 +7,15 @@ let animation_running: boolean
 /**
  * Custom blocks
  */
-//% weight=100 color=#0fbc11 icon=""
+//% weight=100 color=#104d01 icon="\uf008"
 namespace flipbook {
     /**
      * Creates a Animation with a array of Images.
-     * @param n describe parameter here, eg: 20
+     * @param n describe parameter here, eg: 500
      */
     //% block="Animiere $a alle $n ms"
-    //% n.min=1 n.max=10000
-    //% n.fieldOptions.precision=1
+    //% n.min=100 n.max=5000
+    //% n.shadow=timePicker
     export function animate(a: Image[], n: number): void {
         animation_running = true
         for (let Index = 0; Index <= a.length - 1; Index++) {
