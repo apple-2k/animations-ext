@@ -1,5 +1,3 @@
-	> Irgendwelche Probleme? Öffne die Seite [hier.](https://aha-ha.github.io/animations-erweiterung/)
-## Die Erweiterung zu Makecode hinzufügen
 > Any problems? Open the page [here.](https://aha-ha.github.io/animations-erweiterung/)
 ## Add the extension to Makecode
 Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
