@@ -23,18 +23,139 @@ Hast du eine Idee, wie man die Erweiterung verbessern oder Fehler beheben kann?
 # Docs
 ## Starte Animation #flipbookanimate
 Spielt eine Reihe von Bildern hintereinander ab, ähnlich wie bei einem Daumenkino.
-```blocks
+### Verwendung
+#### Blöcke
+![Animiere Bild1, Bild2 alle 500 ms](https://raw.githubusercontent.com/aha-ha/Files/main/Blocks1.png)
+#### JavaScript / TypeScript
+```TypeScript
 flipbook.animate([images.createImage(`
-    . . . . .
-    . . . . .
-    . . . . .
-    . . . . .
-    . . . . .
+    . . # . .
+    . # # . .
+    . . # . .
+    . . # . .
+    . . # . .
     `), images.createImage(`
-    . . . . .
-    . . . . .
-    . . . . .
-    . . . . .
-    . . . . .
+    . # # . .
+    # . . # .
+    . . # . .
+    . # . . .
+    # # # # .
     `)], 500)
+```
+#### (Micro)Python
+```Python
+flipbook.animate([images.create_image("""
+            . . # . .
+                . # # . .
+                . . # . .
+                . . # . .
+                . . # . .
+        """),
+        images.create_image("""
+            . # # . .
+                # . . # .
+                . . # . .
+                . # . . .
+                # # # # .
+        """)],
+    500)
+```
+### Beispiel
+#### Blöcke
+![Ein Beispiel für eine Animation](https://raw.githubusercontent.com/aha-ha/Files/main/Blocks2.png)
+#### JavaScript / TypeScript
+```TypeScript
+flipbook.animate([
+images.createImage(`
+    # # # # #
+    # . . . .
+    # . . . .
+    # . . . .
+    # . . . .
+    `),
+images.createImage(`
+    # # # # #
+    # # # # #
+    # # . . .
+    # # . . .
+    # # . . .
+    `),
+images.createImage(`
+    # # # # #
+    # # # # #
+    # # # # #
+    # # # . .
+    # # # . .
+    `),
+images.createImage(`
+    # # # # #
+    # # # # #
+    # # # # #
+    # # # # #
+    # # # # .
+    `),
+images.createImage(`
+    # # # # #
+    # # # # #
+    # # # # #
+    # # # # #
+    # # # # #
+    `)
+], 300)
+
+```
+#### (Micro)Python
+```Python
+flipbook.animate([images.create_image("""
+            # # # # #
+                # . . . .
+                # . . . .
+                # . . . .
+                # . . . .
+        """),
+        images.create_image("""
+            # # # # #
+                # # # # #
+                # # . . .
+                # # . . .
+                # # . . .
+        """),
+        images.create_image("""
+            # # # # #
+                # # # # #
+                # # # # #
+                # # # . .
+                # # # . .
+        """),
+        images.create_image("""
+            # # # # #
+                # # # # #
+                # # # # #
+                # # # # #
+                # # # # .
+        """),
+        images.create_image("""
+            # # # # #
+                # # # # #
+                # # # # #
+                # # # # #
+                # # # # #
+        """)],
+    300)
+```
+## Läuft eine Animation? #flipbookisrunning
+### Verwendung
+#### Blöcke
+![Abfrage "Läuft eine Animation"](https://raw.githubusercontent.com/aha-ha/Files/main/Blocks3.png)
+#### JavaScript / TypeScript
+```JavaScript
+if (flipbook.isrunning()) {
+	// Animation läuft
+}
+```
+#### (Micro)Python
+```Python
+if flipbook.isrunning():
+    # Animation läuft
+    pass
 ```
